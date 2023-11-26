@@ -1,0 +1,31 @@
+{
+    "orgName": "FIDO Passkey",
+    "edition": "Enterprise",
+    "hasSampleData": true,
+    "language": "en_US",
+    "features": [
+        "SalesforceIdentityForCommunities",
+        "Communities",
+        "ExternalIdentityLogin",
+        "API"
+    ],
+    "settings": {
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "experienceBundleSettings": {
+            "enableExperienceBundleMetadata": true
+        },
+        "userManagementSettings": {
+            "enableContactlessExternalIdentityUsers": true
+        },
+        "languageSettings": {
+            "enableTranslationWorkbench": true,
+            "enableEndUserLanguages": true,
+            "enablePlatformLanguages": true
+        },
+        "apexSettings": {
+            "enableDisableParallelApexTesting": true
+        }
+    }
+}

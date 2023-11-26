@@ -1,0 +1,12 @@
+<template>
+    <lightning-layout horizontal-align="center" multiple-rows="true">
+        <lightning-layout-item size="12" class="slds-align_absolute-center">
+            <lightning-button disabled={passkeyDisabled} 
+                              label="Create a new passkey"
+                              onclick={handlePasskeyRegistration}></lightning-button>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" lwc:if={showRegistrationSuccess} class="slds-align_absolute-center">
+            Registration was successful.
+        </lightning-layout-item>
+    </lightning-layout>
+</template>

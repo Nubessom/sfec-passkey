@@ -1,0 +1,18 @@
+<template>
+    <lightning-card  hide-header="true">
+        <lightning-layout multiple-rows="true">
+            <lightning-layout-item padding="around-small" size="12" class="slds-text-heading_medium">
+                <lightning-avatar src={SmallPhotoUrl} class="slds-m-right_medium"></lightning-avatar>{Name}
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="12">
+                User Id: {userId}
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="12">
+                Username:  {Username}
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="12">
+                Email: {Email}
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

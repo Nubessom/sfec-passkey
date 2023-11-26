@@ -1,0 +1,58 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"bbc7ae95-0c6c-4caa-bb0c-4ee6bdc52052\",\"columns\":[{\"UUID\":\"3e932084-093b-475c-9fc8-5568df3d8a6d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:passkeyRegistration",
+              "id" : "b91a5b2e-e9ec-4ec8-ac82-18d29292db84",
+              "type" : "component"
+            } ],
+            "id" : "3e932084-093b-475c-9fc8-5568df3d8a6d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bbc7ae95-0c6c-4caa-bb0c-4ee6bdc52052",
+          "type" : "component"
+        } ],
+        "id" : "0d0a4a0c-de32-49c0-a3d0-361483f0b5df",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "64e1bfb5-2da6-4c38-a7c1-d4383ee2a341",
+          "type" : "component"
+        } ],
+        "id" : "a621cc9d-2ac3-45d1-9173-bf70a2109a8b",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d36d2cde-49ba-419c-b107-58a2c75d380e",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  }
+}

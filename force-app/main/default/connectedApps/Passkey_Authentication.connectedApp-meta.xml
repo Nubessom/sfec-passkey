@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>FidoPasskey@example.com</contactEmail>
+    <label>Passkey Authentication</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com</callbackUrl>
+        <certificate>MIIEkDCCA3igAwIBAgIOAYtWrUYLAAAAADVV9+EwDQYJKoZIhvcNAQELBQAwgYcxHzAdBgNVBAMMFlBhc3NrZXlfQXV0aGVudGljYXRpb24xGDAWBgNVBAsMDzAwRDlYMDAwMDA2SHlRdjEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMjMxMDIyMDkxNzU4WhcNMjQxMDIyMDAwMDAwWjCBhzEfMB0GA1UEAwwWUGFzc2tleV9BdXRoZW50aWNhdGlvbjEYMBYGA1UECwwPMDBEOVgwMDAwMDZIeVF2MRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMSm7KfQZm5GaUkw6DYwQMourPO24ZuWbBWvBBuo03egNXEwT9c5uli1NyckcQUXhuAHgJi5yLcAWrUO7FOjEq1o7l+jYWGE+SuHu1rePE2SdvC5+LR8Py4EGCsgCUS95AFD81lVL3vac3JE+FCCJv65u1m85G5h7MDdbA/AyUgt5CFt+pKCY9lX7sWcaIviYpJJb1ibs+kyhRL5YnX9z52FoqSvTK8WDoxDmge0TsmpeVwHKq7d4zbhDzOltJtdsCACvjJr3J9MLnA2s5xBKGIBB8arUh8hWj7LvrE+RfsBAMOiR6Vdc0ieYPPfnOTxNXS2dKoEhso7pX2CWLeHA28CAwEAAaOB9zCB9DAdBgNVHQ4EFgQURpYlo+u3L8qnD34TMUliwAuqI3YwDwYDVR0TAQH/BAUwAwEB/zCBwQYDVR0jBIG5MIG2gBRGliWj67cvyqcPfhMxSWLAC6ojdqGBjaSBijCBhzEfMB0GA1UEAwwWUGFzc2tleV9BdXRoZW50aWNhdGlvbjEYMBYGA1UECwwPMDBEOVgwMDAwMDZIeVF2MRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQYIOAYtWrUYLAAAAADVV9+EwDQYJKoZIhvcNAQELBQADggEBAHcWsk3EnS5ZuyXjN2swhcXE0xvgKx4I/sLsc5g8bQLemG9geExSqvD/Kjr0JqxJaeRdUBre2Mp6MIMXGWoMUCoXPzEqiZJ4YLAaLaY+/J7ptAw4LJ/tO1dzA4BfFQf6xtxIlitbmyoLmbdqJr4EZ+ZCiBCW0eV1fn0dNfosjUfvrBWq9yl9h3lNshocOomj1WUCqtRUve+k4QueNwz9+ITfDsn0685r0VziTDOEj2Ni0jgYe/Ks6XpM23baybaEdd9JiR6l1TwkQhtBlfz9J/xMRCYuTs+lUqUCLSy0FkTUEll97vzXUusk/yvR3ZcUEvck/bkfxGgHVG5F/G3h8Rs=</certificate>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>true</isPkceRequired>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

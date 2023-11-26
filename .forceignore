@@ -1,0 +1,42 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+# ignore folder-based unfiled public files
+force-app/main/default/email/unfiled$public
+force-app/main/default/reports/unfiled$public
+
+# ignore all profiles that are not supposed to be packaged
+force-app/main/default/profiles/Custom**Marketing*Profile.profile-meta.xml
+force-app/main/default/profiles/Custom**Sales*Profile.profile-meta.xml
+force-app/main/default/profiles/Custom**Support*Profile.profile-meta.xml
+force-app/main/default/classes/SiteLoginController.cls*
+force-app/main/default/classes/SiteLoginControllerTest.cls*
+force-app/main/default/classes/SiteRegisterController.cls*
+force-app/main/default/classes/SiteRegisterControllerTest.cls*
+force-app/main/default/components/SiteLogin.component*
+force-app/main/default/pages/AnswersHome.page*
+force-app/main/default/pages/BandwidthExceeded.page*
+force-app/main/default/pages/IdeasHome.page*
+force-app/main/default/pages/InMaintenance.page*
+force-app/main/default/pages/MyProfilePage.page*
+force-app/main/default/pages/SiteRegisterConfirm.page*
+force-app/main/default/pages/SiteTemplate.page*
+force-app/main/default/pages/StdExceptionTemplate.page*
+force-app/main/default/pages/Unauthorized.page*
+force-app/main/default/pages/UnderConstruction.page*
+force-app/main/default/homePageComponents/Notifications (VF).homePageComponent-meta.xml
+force-app/main/default/appMenus/AppSwitcher.appMenu-meta.xml
+**/aura
+**/*SessionSetting*
+**/*PasswordPolicy*
+*SessionSetting*
+*PasswordPolicy*
+**/customindex
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
